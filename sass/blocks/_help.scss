@@ -1,0 +1,34 @@
+.help {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 80px;
+    &__title {
+        text-align: center;
+    }
+    &__wrapper {
+        width: 1026px;
+        margin: 60px auto 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 55px;
+        column-gap: 132px;
+    }
+    &__item-img {
+        display: block;
+        margin: 0 auto;
+        height: 60px;
+        width: 60px;
+    }
+    &__item-title {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        color: #545454;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}

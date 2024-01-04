@@ -1,0 +1,33 @@
+.about {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+    }
+    &__img {
+        width: 300px;
+        height: 408px;
+    }
+    &__content {
+        width: 430px;
+    }
+    &__title {
+        margin-top: 14px;
+        width: 370px;
+    }
+    &__text {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #4C4C4C;
+    }
+    &__text-top, &__text-bottom {
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+}

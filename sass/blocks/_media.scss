@@ -1,0 +1,404 @@
+@media (max-width: 1240px) {
+    .container {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .help {
+        &__wrapper {
+            width: 930px;
+        }
+    }
+    .pets {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 270px);
+            grid-template-rows: repeat(3, 435px);
+            justify-content: center;
+        }
+        &__nav {
+            padding-bottom: 76px;
+        }
+    }
+    .friends--pets {
+        margin-top: 30px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1104px) {
+    .house {
+        &__img {
+            width: 569px;
+            height: 593px;
+        }
+    }
+    .help {
+        &__wrapper {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1010px) {
+    .footer {
+        height: auto;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 60px;
+            row-gap: 65px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .house {
+        &__content {
+            flex-direction: column;
+        }
+        &__wrapper {
+            margin: 0 auto;
+        }
+        &__img {
+            margin: 100px 0 0 auto;
+            width: 569px;
+            height: 593px;
+        }
+        &__title {
+            margin-top: 60px;
+        }
+        &__descr {
+            margin: 42px auto 0;
+        }
+        &__btn {
+            margin: 42px auto 0;
+        }
+    }
+    .about {
+        &__wrapper {
+            gap: 65px;
+        }
+    }
+    .donation {
+        &__wrapper {
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img {
+            order: 2;
+            margin-top: 60px;
+        }
+        &__content {
+            order: 1;
+        }
+    }
+    .pets {
+        &__wrapper {
+            grid-template-columns: repeat(2, 270px);
+            grid-template-rows: repeat(3, 435px);
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        height: auto;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 80px;
+        }
+        &__img {
+            order: 2;
+        }
+        &__content {
+            order: 1;
+        }
+        &__title {
+            margin-top: 0px;
+            width: 360px;
+        }
+    }
+    .friends__item--scarlet {
+        display: none;
+    }
+    .friends__item--freddie {
+        display: none;
+    }
+    .help {
+        &__wrapper {
+            width: 630px;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(3, auto);
+            grid-auto-flow: rows;
+            column-gap: 110px;
+            row-gap: 55px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .header {
+        &__logo-link {
+            margin-left: 10px;
+        }
+        &__logo-bottom {
+            margin-left: 14px;
+        }
+        &__nav {
+            display: none;
+        }
+        &__burger {
+            display: block;
+            margin-top: 19px;
+            margin-right: 10px;
+            margin-bottom: auto;
+            margin-left: auto;
+            z-index: 1210;
+            &.active {
+                position: fixed;
+                right: 30px;
+                transition: all 0.6s;
+                transform: rotate(-0.25turn);
+            }
+        }
+        &__burger--white {
+            &.active {
+                position: fixed;
+                right: 30px;
+                transition: all 0.6s;
+                transform: rotate(-0.25turn);
+                filter: invert(88%)
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .help {
+        &__wrapper {
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(5, auto);
+            width: 100%;
+            column-gap: 80px;
+        }
+    }
+    .house {
+        &__img {
+            width: 440px;
+            height: 474px;
+        }
+    }
+    .friends {
+        &__item--sophia, &__item--timmy, &__item--charly {
+            display: none;
+        }
+    }
+    .pets {
+        &__wrapper {
+            grid-template-columns: repeat(1, 270px);
+            grid-template-rows: repeat(3, 435px);
+            margin-top: 42px;
+            margin-bottom: 42px;
+        }
+        &__nav {
+            column-gap: 10px;
+            padding-bottom: 42px;
+
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    .about {
+        &__content {
+            width: 100%;
+        }
+    }
+    .house {
+        &__wrapper {
+            width: 100%;
+        }
+        &__img {
+            margin-top: 105px;
+            width: 340px;
+            height: 354px;
+        }
+    }
+    .donation {
+        &__content {
+            width: 100%;
+        }
+        &__img {
+            width: 260px;
+            height: 135.2px;
+            margin-top: 42px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .house {
+        &__wrapper {
+            width: 300px;
+            text-align: center;
+        }
+        &__title {
+            font-size: 25px;
+            line-height: 130%;
+            width: 230px;
+            margin: 60px auto 0;
+        }
+        &__img {
+            margin-top: 105px;
+            width: 260px;
+            height: 271px;
+        }
+    }
+    .about {
+        &__title {
+            width: 100%;
+        }
+    }
+    .help {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        margin-bottom: 0;
+        &__wrapper {
+            width: 290px;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(5, auto);
+            column-gap: 30px;
+            row-gap: 30px;
+        }
+        &__item-title {
+            font-size: 15px;
+            line-height: 110%;
+            letter-spacing: 0.06em;
+        }
+    }
+    .donation {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        &__title {
+            text-align: center;
+        }
+        &__content {
+            width: 300px;
+            margin: 0 0;
+        }
+        &__bank {
+            line-height: 160%;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        &__card {
+            width: 281px;
+            height: 43px;
+            margin: 0 auto;
+        }
+        &__card-number {
+            font-size: 15px;
+            line-height: 110%;
+            margin-top: 3px;
+        }
+        &__descr {
+            text-align: justify;
+            width: 280px;
+            margin: 20px auto 0px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        &__wrapper {
+            height: auto;
+        }
+        &__content {
+            width: 300px;
+        }
+        &__img {
+            width: 260px;
+            height: 353.6px;
+        }
+        &__text-top, &__text-bottom {
+            margin: 23px 15px 0px;
+            text-align: justify;
+        }
+        &__title {
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .friends {
+        height: auto;
+        padding-bottom: 42px;
+        padding-top: 42px;
+        &__carousel {
+            margin-bottom: 114px;
+        }
+    }
+    .slick-next {
+        top: 390px;
+        right: 57px;
+        z-index: 1100;
+    }
+    .slick-prev {
+        top: 390px;
+        left: 57px;
+        z-index: 1100;
+    }
+    .footer {
+        padding-top: 30px;
+        &__wrapper {
+            row-gap: 40px;
+        }
+        &__title {
+            font-size: 25px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: 0.06em;
+        }
+        &__img {
+            width: 260px;
+            height: 269px;
+            margin-top: 5px;
+        }
+        .contacts {
+            &__mail, &__phone {
+                justify-content: center;
+            }
+            &__phone {
+                margin-top: 43px;
+            }
+            &__phone-img {
+                width: 40px;
+                height: 32px;
+            }
+        }
+        .locations {
+            &__title {
+                width: 270px;
+                margin: 0 auto;
+            }
+            &__london {
+                margin-top: 40px;
+            }
+        }
+    }
+}

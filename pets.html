@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/help/toys.svg" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" type="text/css" href="sass/slick.css"/>
+    <title>Shelter</title>
+</head>
+<body>
+
+    <section class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="#about" class="menu__item-link header__list-link header__list-link--about">About the shelter</a></li>
+            <li class="menu__item"><a href="#friends" class="menu__item-link header__list-link header__list-link--friends">Our pets</a></li>
+            <li class="menu__item"><a href="#help" class="menu__item-link header__list-link header__list-link--help">Help the shelter</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__item-link header__list-link header__list-link--footer">Contacts</a></li>
+        </ul>
+        <div class="menu__overlay"></div>
+    </section>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <div class="header__logo-top header__logo-top--pets"><a href="index.html" class="header__logo-link header__logo-link--pets">Cozy House</a></div>
+                    <div class="header__logo-bottom header__logo-bottom--pets">Shelter for pets in Boston</div>
+                </div>
+                <div class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="index.html" class="header__list-link header__list-link--pets">About the shelter</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link header__list-link--pets">Our pets</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="index.html#help" class="header__list-link header__list-link--pets">Help the shelter</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#footer" class="header__list-link header__list-link--pets">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__burger header__burger--white">
+                    <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="21" x2="30" y2="21" stroke="#000000" stroke-width="2"/>
+                        <line y1="11" x2="30" y2="11" stroke="#000000" stroke-width="2"/>
+                        <line y1="1" x2="30" y2="1" stroke="#000000" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="friends--pets">
+        <div class="container">
+            <h3 class="friends__title page__title friends__title--pets">Our friends who<br>are looking for a house</h3>
+            <div class="pets__wrapper">
+                <div class="friends__item">
+                    <img src="img/pets/pets-katrine.png" alt="grey cat" class="fiends__img">
+                    <h4 class="friends__name">Katrine</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item">
+                    <img src="img/pets/pets-jennifer.png" alt="dog" class="fiends__img">
+                    <h4 class="friends__name">Jennifer</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item">
+                    <img src="img/pets/pets-woody.png" alt="dog" class="fiends__img">
+                    <h4 class="friends__name">Woody</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item friends__item--sophia">
+                    <img src="img/pets/pets-sophia.png" alt="dog" class="fiends__img">
+                    <h4 class="friends__name">Sophia</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item friends__item--timmy">
+                    <img src="img/pets/pets-timmy.png" alt="cat" class="fiends__img">
+                    <h4 class="friends__name">Timmy</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item friends__item--charly">
+                    <img src="img/pets/pets-charly.png" alt="dog" class="fiends__img">
+                    <h4 class="friends__name">Charly</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item friends__item--scarlet">
+                    <img src="img/pets/pets-scarlet.png" alt="dog" class="fiends__img">
+                    <h4 class="friends__name">Scarlett</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+                <div class="friends__item friends__item--freddie">
+                    <img src="img/pets/pets-freddie.png" alt="cat" class="fiends__img">
+                    <h4 class="friends__name">Freddie</h4>
+                    <button class="friends__btn">Learn more</button>
+                </div>
+            </div>
+            <div class="pets__nav">
+                <button class="pets__btn-paginator pets__btn--double-left-arrow"><svg width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.94687 10.7852L0.913671 6.08789V4.98438L9.94687 0.287109V1.625L2.43711 5.53125L9.94687 9.44727V10.7852ZM24.018 10.7852L14.9848 6.08789V4.98438L24.018 0.287109V1.625L16.5082 5.53125L24.018 9.44727V10.7852Z" fill="#CDCDCD"/></svg></button>
+                <button class="pets__btn-paginator pets__btn--left-arrow"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.98242 10.7852L0.949219 6.08789V4.98438L9.98242 0.287109V1.625L2.47266 5.53125L9.98242 9.44727V10.7852Z" fill="#CDCDCD"/></svg></button>
+                <button class="pets__btn-paginator pets__btn--counter">1</button>
+                <button class="pets__btn-paginator pets__btn--right-arrow"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.04102 6.08789L0.0078125 10.7852V9.44727L7.51758 5.53125L0.0078125 1.625V0.287109L9.04102 4.98438V6.08789Z" fill="#292929"/></svg></button>
+                <button class="pets__btn-paginator pets__btn--double-right-arrow"><svg width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0055 6.08789L0.972265 10.7852V9.44727L8.48203 5.53125L0.972265 1.625V0.287109L10.0055 4.98438V6.08789ZM24.0766 6.08789L15.0434 10.7852V9.44727L22.5531 5.53125L15.0434 1.625V0.287109L24.0766 4.98438V6.08789Z" fill="#292929"/></svg></button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__blocks contacts">
+                    <h3 class="footer__title contacts__title">For questions and suggestions</h3>
+                    <div class="footer__subblocks contacts__mail">
+                        <img src="icons/footer/mail.svg" alt="mail" class="contacts__mail-img">
+                        <a href="mailto:email@shelter.com" class="footer__text contacts__mail-link">email@shelter.com</a>
+                    </div>
+                    <div class="footer__subblocks contacts__phone">
+                        <img src="icons/footer/phone.svg" alt="phone" class="contacts__phone-img">
+                        <a href="tel:+136745677554" class="footer__text contacts__phone-number">+13 674 567 75 54</a>
+                    </div>
+                </div>
+                <div class="footer__blocks locations">
+                    <h3 class="footer__title locations__title">We are waiting for your visit</h3>
+                    <div class="footer__subblocks locations__boston">
+                        <img src="icons/footer/pin.svg" alt="pin" class="locations__img">
+                        <a href="https://www.google.com/maps/place/1+Centre+St,+Boston,+MA+02119,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/data=!4m2!3m1!1s0x89e37a260516d22d:0x67663c18c6a54ce9?sa=X&ved=2ahUKEwja1e6G6o3-AhVuwIsKHcKFABIQ8gF6BAgIEAI" class="footer__text locations__boston-link">1 Central Street, Boston (entrance from the store)</a>
+                    </div>
+                    <div class="footer__subblocks locations__london">
+                        <img src="icons/footer/pin.svg" alt="pin" class="locations__img">
+                        <a href="https://www.google.com/maps/search/18+South+Park,+London/@51.461872,-0.1925787,11z/data=!3m1!4b1" class="footer__text locations__london-link">18 South Park, London </a>
+                    </div>
+                </div>
+                <img src="img/pets/footer-puppy.png" alt="puppy" class="footer__img">
+            </div>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="sass/vendors/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

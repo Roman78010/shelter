@@ -1,0 +1,56 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.cdnfonts.com/css/georgia');
+@import url('https://fonts.cdnfonts.com/css/arial');
+
+* {
+    font-family: 'Georgia', sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-family: 'Georgia';
+    font-weight: 400;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page__title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    margin: 0px;
+    @media (max-width: 380px) {
+        font-size: 25px;
+        line-height: 130%;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+.background-img {
+    position: relative;
+    background-image: url(../../img/bg/start-screen-gradient-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@import 'blocks/_menu';
+@import 'blocks/_header';
+@import 'blocks/_house';
+@import 'blocks/_about';
+@import 'blocks/_friends';
+@import 'blocks/_help';
+@import 'blocks/_donation';
+@import 'blocks/_footer';
+@import 'blocks/_media';

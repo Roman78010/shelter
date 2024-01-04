@@ -1,0 +1,50 @@
+.menu {
+    display: flex;
+    background-image: url(../../img/bg/background-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: auto;
+    padding: 248px 38px 248px;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1110;
+    transition: all .6s;
+    &.active {
+        right: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+    &__list {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 160%;
+        color: #CDCDCD;
+        list-style: none;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__item-link {
+        width: auto;
+        margin: 0px auto 0;
+    }
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(41, 41, 41, 0.6);
+        z-index: -1;
+    }
+}

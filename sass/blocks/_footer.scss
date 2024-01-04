@@ -1,0 +1,76 @@
+.footer {
+    background-image: url(../../img/bg/footer-gradient-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+    &__text {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #F1CDB3;
+        margin-left: 20px;
+        &:hover {
+            color:#FFFFFF;
+            text-decoration: none;
+            transition: all 0.6s;
+        }
+    }
+    &__blocks {
+        width: 302px;
+        margin-top: 16px;
+    }
+    &__subblocks {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        width: 300px;
+        height: 310px;
+    }
+}
+
+.contacts {
+    &__mail, &__phone {
+        margin-top: 40px;
+    }
+    &__phone-img {
+        width: 40px;
+        height: 26px;
+    }
+    &__mail-img {
+        width: 40px;
+        height: 26px;
+    }
+}
+
+.locations {
+    &__boston {
+        margin-top: 34px;
+    }
+    &__london {
+        margin-top: 32px;
+    }
+    &__img {
+        width: 22px;
+        height: 32px;
+    }
+}

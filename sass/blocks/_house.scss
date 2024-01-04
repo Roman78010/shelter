@@ -1,0 +1,48 @@
+.house {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        width: 460px;
+    }
+    &__title {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-top: 253px;
+        margin-bottom: 0px;
+        width: 310px;
+    }
+    &__descr {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #CDCDCD;
+        margin-top: 42px;
+        margin-bottom: 0px;
+    }
+    &__btn {
+        display: block;
+        width: 207px;
+        height: 52px;
+        background: #F1CDB3;
+        border-radius: 100px;
+        margin-top: 42px;
+        &:hover {
+            transition: all 0.6s;
+            transform: scale(1.05);
+        }
+    }
+    &__img {
+        margin-top: 90px;
+        display: block;
+        width: 698px;
+        height: 728px;
+    }
+}
